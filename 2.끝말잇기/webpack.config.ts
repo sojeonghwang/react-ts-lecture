@@ -39,8 +39,7 @@ const config: Configuration = {
     },
     output: {
         filename: '[name].js',
-        path: path.join(__dirname, 'dist'),
-        publicPath: '/dist',
+        path: path.join(__dirname, 'dist')
     }
 };
 
